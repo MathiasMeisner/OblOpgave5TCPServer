@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Obl-Opgave1">
+      <HintPath>..\..\OblOpgave1TESTS\Obl-Opgave1\bin\Debug\netcoreapp3.1\Obl-Opgave1.dll</HintPath>
+    </Reference>
+    <Reference Include="OblOpgave4REST">
+      <HintPath>..\..\OblOpgave4REST\OblOpgave4REST\bin\Debug\netcoreapp3.1\OblOpgave4REST.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
